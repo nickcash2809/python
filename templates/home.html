@@ -1,0 +1,33 @@
+<html>
+
+<head>
+
+    <title>Aplicacion estado del tiempo - Pyton</title>
+
+</head>
+
+<body>
+
+<div>
+
+    <h2>Climas</h2>
+
+</div>
+
+<div class = "inputcity">
+
+    <p>Ingrese el nombre de su ciudad</p>
+    
+</div>
+
+<form action ="{{url_for('render_results')}}" method = "POST">
+
+    <input id = "WeatherInput" type "text name = CityName">
+    <input id = "WeatherSubmit" type="Submit" Value = "Submit">
+
+</form>
+
+
+</body>
+
+</html>
